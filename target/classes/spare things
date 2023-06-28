@@ -1,0 +1,18 @@
+[
+  {
+    "VALUES": "50000.0#0#0#",
+    "Delimiter": "#"
+  },
+  {
+    "VALUES": "0@10000.0@",
+    "Delimiter": "@"
+  },
+  {
+    "VALUES": "1$",
+    "Delimiter": "$"
+  },
+  {
+    "VALUES": "1000.00^Test_string",
+    "Delimiter": "^"
+  }
+]
