@@ -29,15 +29,13 @@ public class Main {
         SparkSession spark = SparkSession.builder().appName("testingSql").master("local[*]").getOrCreate();
 
 
-
-
         Dataset<Row> dataset = spark.read().option("header", "true").csv("src/main/resources/exercise1info");
 
         dataset.show();
 
         dataset = dataset.withColumn("split", functions.expr("split(VALUES, Delimiter)"));
 
-
+// yeyeeey
 
         dataset.printSchema();
         dataset.show();
